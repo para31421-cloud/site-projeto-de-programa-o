@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Escola João Ribeiro da Silveira — Reforma da Quadra</title>
+<style>
+:root{
+  --blue:#0b3d91;
+  --blue2:#1559b7;
+  --light:#f4f8ff;
+  --yellow:#f6c400;
+  --dark:#17324d;
+  --text:#243447;
+  --white:#fff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--light);line-height:1.6}
+header{
+  background:linear-gradient(135deg,var(--blue),var(--blue2));
+  color:white;padding:18px 6%;position:sticky;top:0;z-index:20;
+  box-shadow:0 3px 14px #0002
+}
+.nav{max-width:1150px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-weight:800;font-size:1.05rem}
+nav{display:flex;gap:10px;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;padding:8px 12px;border-radius:8px;font-weight:700}
+nav a:hover{background:#fff2}
+.hero{
+  min-height:72vh;display:grid;place-items:center;text-align:center;padding:70px 6%;
+  background:linear-gradient(#063a91cc,#063a9188),url('imagens/quadra-depois.jpg') center/cover;
+  color:white
+}
+.hero-inner{max-width:900px}
+.hero h1{font-size:clamp(2.1rem,5vw,4rem);line-height:1.08;margin-bottom:18px}
+.hero p{font-size:clamp(1.05rem,2vw,1.35rem);margin-bottom:28px}
+.btn{display:inline-block;background:var(--yellow);color:#17324d;text-decoration:none;font-weight:800;padding:13px 20px;border-radius:10px}
+section{max-width:1150px;margin:auto;padding:72px 6%}
+.title{text-align:center;margin-bottom:35px}
+.title h2{color:var(--blue);font-size:2rem;margin-bottom:8px}
+.title p{max-width:760px;margin:auto}
+.story{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
+.card{background:#fff;border-radius:18px;padding:28px;box-shadow:0 8px 28px #17324d16}
+.card h3{color:var(--blue);margin-bottom:10px}
+.card p{margin-bottom:12px}
+.before-after{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.photo-card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 8px 28px #17324d18}
+.photo-card img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+.photo-card .caption{padding:16px 18px;font-weight:800;color:var(--blue)}
+.badge{display:inline-block;background:var(--blue);color:white;border-radius:999px;padding:5px 11px;font-size:.82rem;margin-bottom:10px}
+.timeline{display:grid;gap:15px;max-width:850px;margin:auto}
+.step{display:flex;gap:18px;align-items:flex-start;background:white;padding:20px;border-radius:15px;box-shadow:0 5px 20px #17324d12}
+.num{width:38px;height:38px;min-width:38px;border-radius:50%;background:var(--yellow);display:grid;place-items:center;font-weight:900}
+.quote{font-size:1.15rem;text-align:center;max-width:850px;margin:auto;background:var(--blue);color:white;padding:35px;border-radius:20px}
+footer{background:#102b46;color:white;text-align:center;padding:28px 6%;margin-top:20px}
+.small{opacity:.85;font-size:.92rem}
+@media(max-width:750px){
+  .story,.before-after{grid-template-columns:1fr}
+  .nav{align-items:flex-start;flex-direction:column}
+  header{position:relative}
+  section{padding:52px 5%}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="logo">🏫 Escola João Ribeiro da Silveira</div>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#historia">História</a>
+      <a href="#antes-depois">Antes e Depois</a>
+      <a href="#conquista">Conquista</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+  <div class="hero-inner">
+    <span class="badge">🏀 Reforma da Quadra Poliesportiva</span>
+    <h1>Uma conquista construída com muita luta</h1>
+    <p>A transformação da quadra da Escola João Ribeiro da Silveira em um espaço mais digno, seguro e acolhedor para nossos alunos.</p>
+    <a class="btn" href="#antes-depois">Ver o antes e depois</a>
+  </div>
+</section>
+
+<section id="historia">
+  <div class="title">
+    <h2>Uma história de persistência</h2>
+    <p>Conheça a trajetória por trás da reforma da nossa quadra poliesportiva.</p>
+  </div>
+  <div class="story">
+    <div class="card">
+      <h3>Relato da diretora</h3>
+      <p>Como diretora da Escola João Ribeiro da Silveira, vivi uma das conquistas mais importantes da nossa comunidade escolar: a reforma da nossa quadra poliesportiva.</p>
+      <p>Desde que assumi a direção, percebi o quanto aquele espaço precisava de melhorias. A quadra era fundamental para as aulas de Educação Física, recreação, eventos e para a convivência dos nossos estudantes.</p>
+      <p>Foram muitos pedidos, reuniões, conversas e encaminhamentos. Em vários momentos precisei insistir para que a necessidade da nossa escola fosse ouvida. Eu sabia que não podia desistir, porque estava lutando por algo que beneficiaria diretamente nossos alunos.</p>
+    </div>
+    <div class="card">
+      <h3>Por que a reforma era tão importante?</h3>
+      <p>A quadra representa muito mais do que uma estrutura física. É um espaço de aprendizagem, esporte, convivência, inclusão e desenvolvimento.</p>
+      <p>Ver esse ambiente renovado e perceber a alegria dos estudantes fez valer cada esforço. Hoje, a comunidade escolar pode aproveitar um espaço mais adequado para viver novas experiências e construir novas memórias.</p>
+    </div>
+  </div>
+</section>
+
+<section id="antes-depois">
+  <div class="title">
+    <h2>Antes e depois</h2>
+    <p>Uma transformação que mostra o resultado de uma luta por melhores condições para nossos estudantes.</p>
+  </div>
+  <div class="before-after">
+    <div class="photo-card">
+      <img src="imagens/quadra-antes.jpg" alt="Quadra antes da reforma">
+      <div class="caption">📸 ANTES — Como estava a quadra</div>
+    </div>
+    <div class="photo-card">
+      <img src="imagens/quadra-depois.jpg" alt="Quadra depois da reforma">
+      <div class="caption">✨ DEPOIS — A quadra renovada</div>
+    </div>
+  </div>
+</section>
+
+<section id="conquista">
+  <div class="title">
+    <h2>Uma conquista de todos</h2>
+    <p>O resultado é fruto de persistência, parceria e compromisso com a educação.</p>
+  </div>
+  <div class="timeline">
+    <div class="step"><div class="num">1</div><div><h3>Identificação da necessidade</h3><p>A escola reconheceu a necessidade de melhorar o espaço esportivo para oferecer mais segurança e qualidade.</p></div></div>
+    <div class="step"><div class="num">2</div><div><h3>Muita luta e persistência</h3><p>Foram realizados pedidos, reuniões e encaminhamentos em busca da tão esperada reforma.</p></div></div>
+    <div class="step"><div class="num">3</div><div><h3>A reforma aconteceu</h3><p>O sonho saiu do papel e a quadra ganhou uma nova realidade.</p></div></div>
+    <div class="step"><div class="num">4</div><div><h3>Um novo espaço para os alunos</h3><p>Agora, a comunidade escolar conta com um ambiente renovado para esporte, educação e convivência.</p></div></div>
+  </div>
+</section>
+
+<section>
+  <div class="quote">
+    “Tenho muito orgulho de ter participado dessa conquista e de ter lutado por aquilo que acredito ser essencial: oferecer aos nossos alunos uma escola cada vez melhor.”
+  </div>
+</section>
+</main>
+
+<footer>
+  <strong>Escola João Ribeiro da Silveira</strong>
+  <div class="small">Reforma da Quadra Poliesportiva • Esporte • Educação • Inclusão • Futuro</div>
+</footer>
+</body>
+</html>
